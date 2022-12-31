@@ -440,6 +440,7 @@ body {
 
 .contact {
   min-height: 100vh;
+  padding-bottom: 280px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
