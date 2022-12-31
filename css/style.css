@@ -816,7 +816,7 @@ body {
     margin-top: 10px;
   }
   .about, .portfolio {
-    height: 130vh;
+    height: 200vh;
   }
 }
 @media screen and (max-height: 700px) and (min-width: 900px) {
