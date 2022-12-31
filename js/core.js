@@ -148,14 +148,14 @@ $(function(){
 
     let firstName = $("#Fname").val();
     let lastName = $("#Lname").val();
-    let fallName = `${firstName} ${lastName}`;
+    let fallName = firstName + " " + lastName;
     let email = $("#mail").val();
     let masg = $("#msg").val();
 
 
     function sendEmail(e) {
         e.preventDefault();
-        window.open(`mailto:${email}?subject=I want a website&body=hello I'm ${fallName} I want a website contain that : ${masg}`);
+        window.open("mailto:yousefosama1885@gmail.com?from:" + fallName + "&subject=I want a website&body=hello I'm fallName I want a website contain that : " + masg);
     }
 
     $("form").submit(sendEmail);
