@@ -150,12 +150,12 @@ $(function(){
     let lastName = $("#Lname").val();
     let fallName = `${firstName} ${lastName}`;
     let email = $("#mail").val();
-    let msg = $("#msg").val();
+    let masg = $("#msg").val();
 
 
     function sendEmail(e) {
         e.preventDefault();
-        window.open(`mailto:${email}?subject=I want a website&body=hello I'm ${fallName} I want a website contain that : ${msg}`);
+        window.open(`mailto:${email}?subject=I want a website&body=hello I'm ${fallName} I want a website contain that : ${masg}`);
     }
 
     $("form").submit(sendEmail);
