@@ -156,7 +156,7 @@ $(function(){
     function sendEmail(e) {
         e.preventDefault();
         window.open("mailto:yousefosama1885@gmail.com?from:" + fallName + "&subject=I want a website&body=hello I'm fallName I want a website contain that : " + masg);
-        alert("message sent!");
+        console.log("message sent!");
     }
 
     $("form").submit(sendEmail);
